@@ -1,0 +1,122 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Navigation styles */
+  nav {
+    text-align: center;
+    background-color: #f2f2f2; /* Light gray background */
+    padding: 10px 0;
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin: 0 15px;
+  }
+  
+  /* Main content area */
+  main {
+    background-color: gold; /* Placeholder, replace with the gold background and balloon pattern */
+    text-align: center;
+    padding: 20px;
+  }
+  
+  h1, h2 {
+    color: #333; /* Dark text for contrast */
+  }
+  
+  /* Party list section */
+  #party-list-section {
+    background-color: white;
+    padding: 20px;
+  }
+  
+  #party-list-section table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: auto;
+  }
+  
+  #party-list-section th, 
+  #party-list-section td {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: left;
+    vertical-align: top;
+    word-wrap: break-word;
+  }
+  
+  #party-list-section th {
+    background-color: #f2f2f2;
+    text-align: center;
+  }
+  
+  /* Style for delete button */
+  .delete-button {
+    background-color: red;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+    display: inline-block;
+  }
+  
+  /* Add party form styles */
+  #add-party {
+    padding: 20px;
+  }
+  
+  #add-party form {
+    margin: auto;
+    width: 80%;
+  }
+  
+  #add-party label {
+    display: block;
+    margin-top: 10px;
+  }
+  
+  #add-party input[type="text"],
+  #add-party input[type="date"],
+  #add-party input[type="time"],
+  #add-party textarea {
+    width: 95%;
+    padding: 10px;
+    margin-top: 5px;
+  }
+  
+  #add-party button {
+    background-color: #4c7daf; /* Green background */
+    color: white;
+    padding: 10px 15px;
+    margin-top: 10px;
+    border: none;
+    cursor: pointer;
+    display: block;
+  }
+  
+  /* Footer styles */
+  footer {
+    background-color: #f2f2f2;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 10px 0;
+  }
+  
+  footer p, footer a {
+    padding: 10px;
+    margin: 0;
+    display: inline;
+  }
+  
