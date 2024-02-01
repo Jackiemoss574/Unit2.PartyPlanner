@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Party Planner</title>
+    <link rel="stylesheet" href="PPlanner.css">
+</head>
+<body>
+
+<header>
+    <nav>
+       
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    <h1>Party Planner</h1>
+    <p>Welcome to the ultimate tool for organizing and managing your parties!</p>
+</header>
+<main>
+    <!-- Party Planner Introduction or Overview -->
+    <section id="introduction">
+        <h2>Welcome to Our Party Planner!</h2>
+        <p>Plan and manage your events with ease. From small gatherings to grand parties, our tool helps you stay organized and creative.</p>
+    </section>
+
+    <!-- Party List Section (this will include my dynamic table) -->
+    <section id="party-list-section">
+        <h2>Upcoming Parties</h2>
+        <tr id="party-1">
+            <td>Summer Fiesta</td>
+            <td>2024-07-16</td>
+            <td>18:00</td>
+            <td>Beachside Park</td>
+            <td>Outdoor summer party with live music, beach games, and BBQ</td>
+            <td><button class="delete-button">Delete</button></td>
+          </tr>
+          <tr id="party-2">
+            <td>Tech Conference Afterparty</td>
+            <td>2024-08-05</td>
+            <td>20:00</td>
+            <td>Downtown Tech Hub</td>
+            <td>Networking event for tech enthusiasts with guest speakers and refreshments</td>
+            <td><button class="delete-button">Delete</button></td>
+          </tr>
+          <!-- Party 3: Halloween Spooktacular -->
+<tr id="party-3">
+    <td>Halloween Spooktacular</td>
+    <td>2024-10-31</td>
+    <td>19:00</td>
+    <td>Old Town Mansion</td>
+    <td>Costume party with haunted house tour and themed cocktails</td>
+    <td><button class="delete-button">Delete</button></td>
+  </tr>
+  
+  <!-- Party 4: New Year's Eve Bash -->
+  <tr id="party-4">
+    <td>New Year's Eve Bash</td>
+    <td>2024-12-31</td>
+    <td>22:00</td>
+    <td>City Center Plaza</td>
+    <td>Countdown celebration with fireworks, live DJ, and street food</td>
+    <td><button class="delete-button">Delete</button></td>
+  </tr>
+    </section>
+<!-- Party 5: Spring Garden Party -->
+<tr id="party-5">
+    <td>Spring Garden Party</td>
+    <td>2024-04-15</td>
+    <td>17:00</td>
+    <td>Riverside Gardens</td>
+    <td>Outdoor gathering with floral displays, live jazz, and picnic setups</td>
+    <td><button class="delete-button">Delete</button></td>
+  </tr>
+  <!-- Party 6: Charity Gala Night -->
+<tr id="party-6">
+    <td>Charity Gala Night</td>
+    <td>2024-09-10</td>
+    <td>19:30</td>
+    <td>Grand Hotel Ballroom</td>
+    <td>Elegant dinner and auction for a charitable cause</td>
+    <td><button class="delete-button">Delete</button></td>
+  </tr>
+  <!-- Party 7: Book Club Meetup -->
+<tr id="party-7">
+    <td>Book Club Meetup</td>
+    <td>2024-06-20</td>
+    <td>17:00</td>
+    <td>Local Library</td>
+    <td>Discussion of the month's book selection over coffee and snacks</td>
+    <td><button class="delete-button">Delete</button></td>
+  </tr>
+  <!-- Party 8: Corporate Retreat -->
+<tr id="party-8">
+    <td>Corporate Retreat</td>
+    <td>2024-05-08</td>
+    <td>All Day</td>
+    <td>Mountain Resort</td>
+    <td>Team-building activities and workshops in a scenic location</td>
+    <td><button class="delete-button">Delete</button></td>
+  </tr>
+  <!-- Party 9: Art Exhibition Opening -->
+<tr id="party-9">
+    <td>Art Exhibition Opening</td>
+    <td>2024-11-12</td>
+    <td>18:30</td>
+    <td>City Art Gallery</td>
+    <td>Viewing of new art collections with wine tasting</td>
+    <td><button class="delete-button">Delete</button></td>
+  </tr>
+  <!-- Party 10: International Food Fair -->
+<tr id="party-10">
+    <td>International Food Fair</td>
+    <td>2024-03-21</td>
+    <td>12:00</td>
+    <td>Community Park</td>
+    <td>Showcase of global cuisines with live cooking demonstrations</td>
+    <td><button class="delete-button">Delete</button></td>
+  </tr>
+    <!-- Add Party Form Section -->
+    <section id="add-party">
+        <h2>Add Your Party</h2>
+        <p>Got a new event? Add it to the list using the form below.</p>
+        <section id="add-party">
+            <h2>Add Your Party</h2>
+            <form id="new-party-form">
+                <label for="party-name">Party Name:</label>
+                <input type="text" id="party-name" name="name" placeholder="Enter party name" required>
+        
+                <label for="party-date">Date:</label>
+                <input type="date" id="party-date" name="date" placeholder="YYYY-MM-DD" required>
+        
+                <label for="party-time">Time:</label>
+                <input type="time" id="party-time" name="time" placeholder="HH:MM" required>
+        
+                <label for="party-location">Location:</label>
+                <input type="text" id="party-location" name="location" placeholder="Enter location" required>
+        
+                <label for="party-description">Description:</label>
+                <textarea id="party-description" name="description" placeholder="Describe the party" required></textarea>
+        
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+    </section>
+
+    
+</main>
+        </section>
+
+        <!-- Other sections can go here -->
+    </main>
+
+    <footer>
+        <p>Contact us at: <a href="mailto:info@partyplanner.com">info@partyplanner.com</a></p>
+        <div>
+            <p>Follow us on social media:</p>
+            <a href="https://www.facebook.com/partyplanner"><img src="path/to/facebook-icon.png" alt="Facebook"></a>
+            <a href="https://www.twitter.com/partyplanner"><img src="path/to/twitter-icon.png" alt="Twitter"></a>
+            <a href="https://www.instagram.com/partyplanner"><img src="path/to/instagram-icon.png" alt="Instagram"></a>
+        </div>
+        <p>&copy; 2024 Party Planner. All rights reserved.</p>
+    </footer>
+    
+
+    <script src="PPlanner.js"></script>
+
+</body>
+</html>
