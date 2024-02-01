@@ -1,4 +1,4 @@
-// Example API endpoint
+
 const apiEndpoint = 'https://fsa-crud-2aa9294fe819.herokuapp.com/api/';
 // Fetches parties from the API and updates the DOM
 function fetchParties() {
@@ -11,7 +11,7 @@ function fetchParties() {
 // Renders party data to the party list table in the DOM
 function renderParties(parties) {
   const tableBody = document.getElementById('party-list-body'); // Ensure you have a tbody with this ID in your HTML
-  tableBody.innerHTML = ''; // Clear existing party list entries
+  tableBody.innerHTML = ''; 
   parties.forEach(party => {
     const row = tableBody.insertRow();
     row.innerHTML = `

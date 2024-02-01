@@ -1,2 +1,13 @@
-# Unit2.PartyPlanner
-"Event Organizer's Party Tracker: A web app for managing party details. Features include viewing all parties, adding new events, and deleting outdated ones. Built with HTML, CSS, JavaScript, Node.js.
+# Party Planner
+
+A simple web application for managing party events.
+
+## Features
+- View a list of parties
+- Add new parties
+- Delete parties
+
+## Usage
+- To view parties, simply open the app.
+- Use the form to add a new party.
+- Click the 'Delete' button to remove a party from the list.
